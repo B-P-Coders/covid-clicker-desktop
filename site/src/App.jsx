@@ -1,6 +1,5 @@
 import * as styles from "./App.css";
 import Navbar from "./components/Navbar";
-import Foot from "./components/Foot";
 import GameScreen from "./pages/GameScreen";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
@@ -27,7 +26,6 @@ export default function App() {
           <GameScreen />
         </Route>
       </Switch>
-      <Foot />
     </Router>
     </CookiesProvider>
   );
