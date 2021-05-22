@@ -3,6 +3,8 @@
     "version": "0.1.0",
     "private": true,
     "main": "index.html",
+    "keywords": [],
+    "author": "B&P Coders",
     "window": {
         "frame": "false",
         "toolbar": "false",

@@ -1,13 +1,12 @@
 {
     "name": "covid-clicker",
     "version": "0.1.0",
-    "private": true,
     "scripts": {
         "dev": "nw site/build",
-        "prod": "nwbuild --platforms osx32,win32,win64,linux32,linux64,osx42 --buildDir dist/ site/build"
+        "prod": "nwbuild --platforms win32,win64,linux32,linux64,osx64 --buildDir dist/ site/build/"
     },
     "devDependencies": {
-        "nw": "^0.53.1",
-        "nwbuild": "0.0.5"
+        "nw": "^0.44.1-sdk",
+        "nw-builder": "^3.5.7"
     }
 }
