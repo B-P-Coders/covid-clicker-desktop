@@ -1,5 +1,9 @@
+import ReactGA from 'react-ga';
 import * as styles from "../styles/About.module.css";
 import AboutUs from "../components/AboutUs.jsx";
+
+ReactGA.initialize('G-LM6F4L305Y');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function About() {
   return (
@@ -25,7 +29,7 @@ export default function About() {
         </div>
         <ul id="5">
           <li>
-            mailowy, na adres <span className= {styles.kontakt}>B.P.Studio@INT.PL</span>
+            mailowy, na adres <span className= {styles.kontakt}>bp.coders@interia.pl</span>
           </li>
           <li>
             lub telefoniczny, na numer <span className= {styles.kontakt}>+48 602 622 102</span>
